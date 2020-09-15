@@ -18,6 +18,7 @@
   font-size: 22px;
 }
 .user-component__usertitle {
+  display: inline;
   margin-top: 5px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
@@ -47,4 +48,8 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.user-component__exclamation {
+  color: red;
+  margin-left: 3px;
 }
