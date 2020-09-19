@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorign="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+  </head>
+  <body>
+    <!-- STATUS BAR -->
+    <div id="status-bar">
+      <div>
+        <span>No Servie</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div>
+        <span>18:43</span>
+      </div>
+      <div>
+        <i class="fas fa-lock"></i>
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!--  Screen header-->
+    <div class="screen-header">
+      <div class="screen-header__title">
+        <span>Find</span>
+      </div>
+      <div class="screen-header__icons">
+        <span class="screen-header__icon"
+          ><i class="fas fa-search fa-lg"></i
+        ></span>
+        <span class="screen-header__icon"
+          ><i class="fas fa-cog fa-lg"></i
+        ></span>
+      </div>
+    </div>
+    <!-- @ Find Main-->
+    <main class="screen-find">
+      <div class="icon-list">
+        <div class="icon-list__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>Qr Code</span>
+        </div>
+        <div class="icon-list__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-list__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-list__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <!-- @ Expand list - Recommended Friends -->
+      <div class="expand-list__list">
+        <div class="expand-list__list-header">
+          <span>Recommended Friends</span>
+        </div>
+        <div class="screen-find__recommand">
+          <span>You have no recommended friends.</span>
+        </div>
+      </div>
+      <!-- @ Open Chat -->
+      <div class="open-chat">
+        <!-- @ Open Chat - Expand list -->
+        <div class="expand-list__list">
+          <div class="expand-list__list-header">
+            <span>Open Chat</span>
+            <button>
+              Go to Openchat Home <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <!-- @ Open Chat - Columns 1111111-->
+        <div class="open-chat__column">
+          <div class="open-chat__info">
+            <span class="open-chat__title">#아따팸</span>
+            <span class="open-chat__hashtag">#adda#mamma#school</span>
+            <div class="user-component">
+              <div class="open-chat__admin">
+                <img
+                  class="user-component__user-img-sm"
+                  src="../img/donggroup.jpg"
+                />
+                <span class="user-component__name-sm">802 members |</span>
+                <span class="open-chat__status">Active</span>
+              </div>
+            </div>
+          </div>
+          <div class="open-chat__photo">
+            <img src="../img/donggroup.jpg" />
+            <div class="open-chat__heart-count">
+              <i class="fas fa-heart fa-xs"></i><span>326</span>
+            </div>
+          </div>
+        </div>
+        <!-- @ Open Chat - Columns 2222222-->
+        <div class="open-chat__column">
+          <div class="open-chat__info">
+            <span class="open-chat__title">#직장인모임</span>
+            <span class="open-chat__hashtag">#work#nobi#plzhelpme</span>
+            <div class="user-component">
+              <div class="open-chat__admin">
+                <img
+                  class="user-component__user-img-sm"
+                  src="../img/donggroup.jpg"
+                />
+                <span class="user-component__name-sm">999 members |</span>
+                <span class="open-chat__status">Active</span>
+              </div>
+            </div>
+          </div>
+          <div class="open-chat__photo">
+            <img src="../img/group.jpg" />
+            <div class="open-chat__heart-count">
+              <i class="fas fa-heart fa-xs"></i><span>999</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- @ Navigation-->
+    <nav id="bottom-nav">
+      <ul>
+        <li>
+          <a href="friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="chats.html"
+            ><span class="badge nav__notification1">1</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="settings.html"
+            ><span class="nav__notification2"></span
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

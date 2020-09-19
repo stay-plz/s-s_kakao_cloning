@@ -1,0 +1,22 @@
+.icon-list {
+  display: flex;
+  margin-bottom: 30px;
+}
+.icon-list__icon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 25%;
+}
+.icon-list__icon i {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.icon-list__icon span {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
