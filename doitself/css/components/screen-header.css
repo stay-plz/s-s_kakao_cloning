@@ -6,13 +6,17 @@
   align-content: center;
 }
 .screen-header__title {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bolder;
 }
 .screen-header__icons {
+  margin: 0px;
   padding: 6px;
 }
 .screen-header__icon {
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 20px;
+}
+.screen-header__icons .screen-header__icon:first-child {
+  margin-left: 0px;
 }

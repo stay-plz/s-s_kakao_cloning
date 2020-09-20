@@ -1,11 +1,12 @@
 .icon-list {
   display: flex;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 .icon-list__icon {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+
   align-items: center;
   width: 25%;
 }

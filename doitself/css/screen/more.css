@@ -1,0 +1,45 @@
+.screen-more {
+  margin: 30px 15px 0px 15px;
+}
+.screen-more .icon-list {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.screen-more .icon-list__icon {
+  margin-bottom: 40px;
+}
+.screen-more .icon-list__icon i {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.screen-more .icon-list__icon span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.screen-more__suggestions {
+  margin-top: -18px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+}
+.screen-more__title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.screen-more__suggestions .icon-list__icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.screen-more__suggestions .icon-list__icon span {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+.screen-more .user-component__text i {
+  margin: 0px 5px;
+  color: tomato;
+}
