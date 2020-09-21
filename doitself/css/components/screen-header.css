@@ -20,3 +20,10 @@
 .screen-header__icons .screen-header__icon:first-child {
   margin-left: 0px;
 }
+
+.screen-header__icon .fa-cog:hover {
+  transition: transform 2s ease-in-out ;
+}
+.screen-header__icon .fa-cog:hover {
+  transform: scale(2) rotateZ(360deg);
+}
