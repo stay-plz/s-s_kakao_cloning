@@ -8,17 +8,124 @@
 .chat-main-screen {
   display: flex;
   flex-direction: column;
+  margin: 0px 15px;
 }
 .time-stamp {
   font-size: 15px;
   margin: 0px auto;
+  margin-bottom: 20px;
   text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.15);
   border-radius: 32px;
   padding: 10px 15px;
 }
-.message-row__img {
-  width: 10px;
-  height: 10px;
+.message-row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.message-row__img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.message-row__info {
+  display: flex;
+  flex-direction: column;
+}
+.message-row__info-id {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.message-row__info-chats {
+  display: flex;
+  align-items: flex-end;
+}
+.message-row__info-chats span:first-child {
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+.message-row__info-chats span:last-child {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.message-row__owner {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.message-row__owner-chats {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+.message-row__owner-chats span:first-child {
+  padding: 10px 10px;
+  background-color: rgb(236, 236, 57);
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  margin-left: 5px;
+}
+.message-row__owner-chats span:last-child {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.reply {
+  box-sizing: border-box;
+  padding: 5px 15px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.reply__column:first-child {
+  width: 30px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 10px 15px 10px 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reply__column:last-child {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.reply__column input {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+}
+.reply__column:last-child > i {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  right: 60px;
+  top: 16px;
+}
+.reply__column:last-child button {
+  position: absolute;
+  background-color: rgb(236, 236, 57);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  right: 19px;
+  top: 9px;
+  font-size: 20px;
+  color: black;
 }

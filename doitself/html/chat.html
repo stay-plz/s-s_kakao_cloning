@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <!--  Screen header-->
+    <!-- @ Screen header-->
     <div class="screen-header">
       <div class="screen-header__icons">
         <span class="screen-header__icon"></span>
@@ -48,20 +48,45 @@
       </div>
     </div>
     <!-- @ Chat Main -->
-<main class="chat-main-screen">
-    <div class="time-stamp">
-        <span>Tuesday, June 30, 2020</span>
-    </div>
-    <div class="message-row">
-        <div class="message-row__img">
-            <img
-              src="../img/dongdongmom.jpg"
-            />
+    <main class="chat-main-screen">
+        <div class="time-stamp">
+            <span>Tuesday, June 30, 2020</span>
         </div>
-        <div class="message-row__info">
+        <div class="message-row">
+            <div class="message-row__img">
+                <img src="../img/dongdongmom.jpg"/>
+            </div>
+            <div class="message-row__info">
+                <span  class="message-row__info-id">아따맘마</span>
+              <div class="message-row__info-chats">
+                <span>밥 집에와서 먹니?</span>
+                <span>22:22</span>
+              </div>
+            </div>
+        </div>
+        <div class="message-row__owner">
+            <div class="message-row__owner-chats">
+              <span>아뇨 밖에서 먹고 들어갈게요</span>
+              <span>22:23</span>
+            </div>
+        </div>
+      </div>
+    </main>
 
-        </div>
-    </div>
-</main>
+    <!-- @ reply -->
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..."/>
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+
+    </form>
   </body>
 </html>
